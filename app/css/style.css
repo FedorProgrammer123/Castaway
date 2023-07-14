@@ -1,0 +1,3162 @@
+:root{
+    --blackcolor : #191919;
+    --pos: relative;
+    --whitecolor: #FFFFFF;
+    --fstyle: normal;
+    --zero: 0;
+    --fw: 400;
+    --fws: 700;
+    --none: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+*{
+    margin:var(--zero);
+    padding: var(--zero);
+    font-family: 'DM Sans', sans-serif;
+}
+body{
+    background-color: var(--blackcolor);
+}
+header{
+    width: 100%;
+    height: 120px;
+    background-color: var(--blackcolor);
+}
+input:focus{
+    color: #a728c9;
+}
+img:hover{
+    cursor: pointer;
+}
+header img{
+    margin: 50px;
+}
+header nav{
+    float: right;
+    margin: 50px;
+}
+header nav a{
+    text-decoration: var(--none);
+    font-size: 17px;
+    padding:20px;
+    color: var(--whitecolor);
+}
+header nav a:hover{
+    color: #118DA8;
+}
+main{
+    width: 100%;
+    height: 8000px;
+    background-color: var(--blackcolor);
+}
+#afroman{
+    padding:50px;
+}
+#Line{
+    position: var(--pos);
+    top: -855px;
+    left: 90px;
+}
+#takepodcast{
+    width: 30%;
+    height: 50%;
+    font-weight: var(--fw);
+    font-size: 70px;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+    color: var(--whitecolor);
+    margin-left: 900px;
+    margin-top: -650px;
+}
+#listenon{
+    color: var(--whitecolor);
+    font-weight: var(--fw);
+    font-size: 15px;
+    line-height: 24px;
+    margin-left: 940px;
+    margin-top: -3600px;
+}
+.images{
+    margin-left: 935px;
+    margin-top: 20px;
+}
+.images img{
+    padding: 10px;
+}
+#latestepisodes{
+    font-weight: var(--fw);
+    font-size: 64px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+    color: var(--whitecolor);
+    margin-left: 120px;
+    margin-top: 300px;
+}
+.ep3,.ep2,.ep1{
+    width: 1300px;
+    height: 545px;
+    background: #000000;
+    border-radius: 32px;
+    margin: 100px;
+    margin-left: 130px;
+}
+#Arrow{
+    position: var(--pos);
+    margin-left: 130px;
+    rotate: 265deg;
+    top: 300px;
+}
+#meetyourhost{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 18px;
+    line-height: 27px;
+    color: #118DA8;
+    margin-left: 130px;
+    margin-top: 300px;
+}
+#jacobpaulaber{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 65px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+    color: var(--whitecolor);
+    margin-left: 130px;
+    margin-top: 100px;
+}
+#jacobhasabackground{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 22px;
+    line-height: 33px;
+    color: #BABABA;
+    width: 556px;
+    height: 66px;
+    margin-left: 130px;
+    margin-top: 130px;
+}
+#heretohelpyou{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 22px;
+    line-height: 33px;
+    color: #BABABA;
+    width: 528px;
+    height: 66px;
+    margin-top: 80px;
+    margin-left: 130px;
+}
+#Afroman2{
+    position: var(--pos);
+    float: right;
+    top: -680px;
+    right: 475px;
+}
+.newsletter{
+    width: 1300px;
+    height: 387px;
+    background: #000000;
+    border-radius: 32px;
+    margin: 100px;
+    margin-left: 130px;
+    margin-top: 400px;
+}
+.ep3 img,.ep2 img, .ep1 img{
+    margin: 40px;
+}
+.ep3 #gear{
+    position: var(--pos);
+    top:-480px;
+    width: 73px;
+    height: 27px;
+    background: #191919;
+    border-radius: 6px;
+    border: var(--zero);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--whitecolor);
+}
+.ep2 #tipstricks{
+    position: var(--pos);
+    top:-450px;
+    width: 136px;
+    height: 27px;
+    background: #191919;
+    border-radius: 6px;
+    border: var(--zero);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 17px;
+    line-height: 27px;
+    color: var(--whitecolor);
+}
+.ep1 #gear2{
+    position: var(--pos);
+    top:-450px;
+    width: 73px;
+    height: 27px;
+    background: var(--blackcolor);
+    border-radius: 6px;
+    border: var(--zero);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--whitecolor);
+}
+#episode3{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 17px;
+    line-height: 27px;
+    color: #118DA8;
+    top:-450px;
+    left: 475px;
+}
+#shouldyouget{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 64px;
+    line-height: 70px;
+    letter-spacing: 2.56px;
+    color: var(--whitecolor);
+    width: 701px;
+    height: 141px;
+    top:-430px;
+    left: 470px;
+}
+#ishardware{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 22px;
+    line-height: 33px;
+    color: #BABABA;
+    width: 757px;
+    height: 99px;
+    top: -390px;
+    left: 470px;
+}
+.viewepisode{
+    position: var(--pos);
+    top:-375px;
+    left: 470px;
+    width: 208px;
+    height: 51px;
+    background: #118DA8;
+    border-radius: 6px;
+    border: var(--zero);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--whitecolor);
+}
+#episode2{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 17px;
+    line-height: 27px;
+    color: #118DA8;
+    top:-400px;
+    left: 475px;
+}
+#mictricks{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 64px;
+    line-height: 70px;
+    letter-spacing: 2.56px;
+    color: var(--whitecolor);
+    width: 676px;
+    height: 141px;
+    top:-370px;
+    left: 470px;
+}
+#stoprolling{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 22px;
+    line-height: 33px;
+    color: #BABABA;
+    width: 773px;
+    height: 66px;
+    top: -330px;
+    left: 470px;
+}
+.ep2 .viewepisode{
+    position: var(--pos);
+    top:-300px;
+    left: 470px;
+    width: 208px;
+    height: 51px;
+    background: #118DA8;
+    border-radius: 6px;
+    border: var(--zero);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--whitecolor);
+}
+#episode1{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 17px;
+    line-height: 27px;
+    color: #118DA8;
+    top:-400px;
+    left: 475px;
+}
+#thebestmicrophone{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 64px;
+    line-height: 70px;
+    color: var(--whitecolor);
+    width: 700px;
+    height: 141px;
+    top:-370px;
+    left: 470px;
+}
+#withsomanymicro{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 22px;
+    line-height: 33px;
+    color: #BABABA;
+    width: 773px;
+    height: 66px;
+    top: -330px;
+    left: 470px;
+}
+.ep1 .viewepisode{
+    position: var(--pos);
+    top:-300px;
+    left: 470px;
+    width: 208px;
+    height: 51px;
+    background: #118DA8;
+    border-radius: 6px;
+    border: var(--zero);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--whitecolor);
+}
+#subscribefor{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 72px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+    color: var(--whitecolor);
+    width: 431px;
+    height: 159px;
+    margin:70px;
+    top: 80px;
+}
+#forsubscribers{
+    position: var(--pos);
+    right: 500px;
+    top:-400px;
+}
+#name{
+    position: var(--pos);
+    width: 522px;
+    height: 82px;
+    box-sizing: border-box;
+    background: var(--blackcolor);
+    border: 1px solid var(--blackcolor);
+    border-radius: 6px;
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+    left: 1255px;
+    top:200px;
+}
+#email{
+    position: var(--pos);
+    width: 522px;
+    height: 82px;
+    top:300px;
+    left: 730px;
+    background: var(--blackcolor);
+    border: 1px solid var(--blackcolor);
+    border-radius: 6px;
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+}
+#Emailnewsletter{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 18px;
+    line-height: 27px;
+    color: #118DA8;
+    top:-180px;
+    left: 70px;
+}
+#Submit{
+    position: var(--pos);
+    width: 87px;
+    height: 48px;
+    background: #118DA8;
+    border-radius: 6px;
+    font-style: var(--fstyle);
+    font-weight: var(--fws);
+    font-size: 15px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+    left: 1260px;
+    top:350px;
+    border: var(--zero);
+}
+#Line2{
+    position: var(--pos);
+    rotate: 250deg;
+    top:-50px;
+    right: 20px;
+}
+.firstmark,.secondmark,.thirdmark,.fourthmark,.fivthmark,.sixthmark{
+    width: 423px;
+    height: 321px;
+    background: #000000;
+    border-radius: 32px;
+}
+.fourthmark,.fivthmark,.sixthmark{
+    width: 423px;
+    height: 364px;
+}
+.marks,.marks2{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 130px;
+}
+.thirdmark,.sixthmark{
+    position: var(--pos);
+    left: 100px;
+}
+.secondmark,.fivthmark{
+    position: var(--pos);
+    left: 50px;
+}
+.imagesstars{
+    margin: 50px;
+}
+.firstmark p{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 36px;
+    line-height: 43px;
+    color: var(--whitecolor);
+    left: 50px;
+    width: 313px;
+    height: 130px;
+    top:-20px;
+}
+.firstmark span{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+    left: 50px;
+}
+.secondmark p{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 36px;
+    line-height: 43px;
+    color: var(--whitecolor);
+    left: 50px;
+    top:-20px;
+    width: 288px;
+    height: 87px;
+}
+.secondmark span{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+    left: 50px;
+}
+.thirdmark p{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 36px;
+    line-height: 43px;
+    color: var(--whitecolor);
+    left: 50px;
+    top:-20px;
+    width: 288px;
+    height: 87px;
+}
+.thirdmark span{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+    left: 50px;
+}
+.fourthmark p{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 36px;
+    line-height: 43px;
+    color: var(--whitecolor);
+    left: 50px;
+    top:-20px;
+    width: 301px;
+    height: 87px;
+}
+.fourthmark span{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+    left: 50px;
+}
+.fivthmark p{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 35px;
+    line-height: 43px;
+    color: var(--whitecolor);
+    left: 50px;
+    top:-20px;
+    width: 313px;
+    height: 87px;
+}
+.fivthmark span{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+    left: 50px;
+    top:5px;
+}
+.sixthmark p{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 36px;
+    line-height: 43px;
+    color: var(--whitecolor);
+    left: 50px;
+    top:-20px;
+    width: 317px;
+    height: 173px;
+}
+.sixthmark span{
+    position: var(--pos);
+    font-style: var(--fstyle);
+    font-weight: var(--fw);
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+    left: 50px;
+}
+footer{
+    width: 100%;
+    height: 438px;
+    background-color: var(--blackcolor);
+}
+#castaway2{
+    position: var(--pos);
+    width: 222.82px;
+    height: 45.47px;
+    margin:40px;
+}
+.insmages{
+    position: var(--pos);
+    left: 50px;
+}
+.firsthref{
+    position: var(--pos);
+    left: 500px;
+    display: flex;
+    width: 178.844px;
+    padding: 0px 103.984px 84.875px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: var(--zero);
+    list-style: var(--none);
+    top:-90px;
+}
+.firsthref a{
+    padding: 10px;
+    line-height: 30px;
+    text-decoration: var(--none);
+    color: var(--whitecolor);
+    font-size: 17px;
+    line-height: 40px;
+}
+.secondhref{
+    display: flex;
+    width: 178.844px;
+    padding: 0px 4.828px 10.875px 0.016px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: var(--zero);
+    overflow: visible;
+}
+.secondhref a{
+    position: var(--pos);
+    color: var(--whitecolor);
+    font-size: 17px;
+    line-height: 27px;
+    left: 850px;
+    top: -368px;
+    text-decoration: var(--none);
+}
+.img5{
+    position: var(--pos);
+    left: 1200px;
+    top: -590px;
+}
+.img5 img{
+    padding: 10px;
+}
+.mobile{
+    position: var(--pos);
+    width: 200px;
+    height: 200px;
+    background-color: #171515;
+    left: 320px;
+    top: -20px;
+}
+.mobile img{
+    position: var(--pos);
+    left: 85px;
+    top:-45px;
+}
+.mobile ol{
+    position: var(--pos);
+    top: -150px;
+    list-style: var(--none);
+    left: 20px;
+}
+.mobile ol a{
+    text-decoration: var(--none);
+    color: var(--whitecolor);
+    line-height: 30px;
+}
+.menu,.mobile{
+    display: var(--none);
+}
+@media(min-width:300px) and (max-width:400px){
+    #afroman{
+        width: 400px;
+    }
+    #takepodcast{
+        display: inline-block;
+    }
+    footer .firsthref{
+        position: relative;
+        left: 130px;
+    }
+    footer .secondhref{
+        position: relative;
+        left: -550px;
+    }
+    footer .img5{
+        position: relative;
+        left: 20px;
+        margin-top: 190px;
+    }
+    header{
+        width: 190%;
+    }
+    header #mobile{
+        position: relative;
+        left: 210px;
+        top:-170px;
+    }
+    header #menu{
+        position: relative;
+        top:-140px;
+        left: 170px;
+    }
+    footer{
+        position: relative;
+        top:1200px;
+    }
+    .marks{
+        display: inline-block;
+    }
+    .firstmark,.secondmark,.thirdmark{
+        position: relative;
+        left: -50px;
+    }
+    .sixthmark{
+        position: relative;
+        top:900px;
+        left: -610px;
+    }
+    .fivthmark{
+        position: relative;
+        top:400px;
+        left: -300px;
+    }
+    .fourthmark p,.fivthmark p,.sixthmark p{
+        position: relative;
+        left: 30px;
+        font-size: 25px;
+    }
+    .ep3,.ep2,.ep1{
+        display: inline-block;
+    }
+    .ep3{
+        position: relative;
+        width: 74%;
+        height: 900px;
+        top:-550px;
+    }
+    .ep3 img{
+        position: relative;
+        width: 200px;
+    }
+    #latestepisodes{
+        position: relative;
+        top:-500px;
+    }
+    #episode3{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #shouldyouget{
+        position: relative;
+        top:20px;
+        left: 20px;
+        font-size: 16px;
+    }
+    #ishardware{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+   .ep3 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .ep2,.ep1{
+        position: relative;
+        width: 74%;
+        height: 900px;
+    }
+    .ep2 img{
+        position: relative;
+        width: 200px;
+    }
+    #episode2{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #mictricks{
+        position: relative;
+        top:20px;
+        left: 10px;
+        font-size: 16px;
+    }
+    #stoprolling{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+    .ep2 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .ep1 img{
+        position: relative;
+        width: 200px;
+    }
+    #episode1{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #thebestmicrophone{
+        position: relative;
+        top:20px;
+        left: 10px;
+        font-size: 16px;
+    }
+    #withsomanymicro{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+    .ep1 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .newsletter{
+        position: relative;
+        top:-120px;
+    }
+    #jacobhasabackground{
+        position: relative;
+        width: 300px;
+        height: 66px;
+    }
+    #heretohelpyou{
+        position: relative;
+        width: 300px;
+        height: 66px;
+    }
+    .newsletter{
+        position: relative;
+        margin-top: 250px;
+        width: 70%;
+        height: 387px;
+    }
+    #Emailnewsletter{
+        position: relative;
+        top:-200px;
+    }
+    #name{
+        position: relative;
+        margin-left: -730px;
+        margin-top: 250px;
+        top: -50px;
+        width: 300px;
+        height: 82px;
+    }
+    #email{
+        position: relative;
+        top: 50px;
+        width: 300px;
+        height: 82px;
+        margin-left: 220px;
+    }
+    #Submit{
+        position: relative;
+        margin-left: -650px;
+        top: 150px;
+    }
+    header nav{
+        display: none;
+    }
+    header #menu{
+        display: block;
+    }
+    #subscribefor{
+        position: relative;
+        font-size: 20px;
+    }
+    main{
+        width: 190%;
+        height: 10500px;
+    }
+    #takepodcast{
+        position: relative;
+        font-size: 20px;
+        left: -700px;
+        top:250px;
+    }
+    #listenon{
+        position: relative;
+        left: -730px;
+        top:-900px;
+    }
+    .images{
+        position: relative;
+        left: -730px;
+        top:-900px;
+    }
+    #Afroman2{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: -250px;
+        top:-1000px;
+    }
+    footer{
+        width: 190%;
+    }
+    #subscribefor{
+        position: relative;
+        left: 300px;
+    }
+}
+@media(min-width:400px) and (max-width:500px){
+    #afroman{
+        width: 400px;
+    }
+    #takepodcast{
+        display: inline-block;
+    }
+    footer .firsthref{
+        position: relative;
+        left: 130px;
+    }
+    footer .secondhref{
+        position: relative;
+        left: -550px;
+    }
+    footer .img5{
+        position: relative;
+        left: 20px;
+        margin-top: 190px;
+    }
+    header{
+        width: 190%;
+    }
+    header #mobile{
+        position: relative;
+        left: 210px;
+        top:-170px;
+    }
+    header #menu{
+        position: relative;
+        top:-140px;
+        left: 170px;
+    }
+    footer{
+        position: relative;
+        top:1200px;
+    }
+    .marks{
+        display: inline-block;
+    }
+    .firstmark,.secondmark,.thirdmark{
+        position: relative;
+        left: -50px;
+    }
+    .sixthmark{
+        position: relative;
+        top:900px;
+        left: -610px;
+    }
+    .fivthmark{
+        position: relative;
+        top:400px;
+        left: -300px;
+    }
+    .fourthmark p,.fivthmark p,.sixthmark p{
+        position: relative;
+        left: 30px;
+        font-size: 25px;
+    }
+    .ep3,.ep2,.ep1{
+        display: inline-block;
+    }
+    .ep3{
+        position: relative;
+        width: 74%;
+        height: 900px;
+        top:-550px;
+    }
+    .ep3 img{
+        position: relative;
+        width: 200px;
+    }
+    #latestepisodes{
+        position: relative;
+        top:-500px;
+    }
+    #episode3{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #shouldyouget{
+        position: relative;
+        top:20px;
+        left: 20px;
+        font-size: 16px;
+    }
+    #ishardware{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+   .ep3 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .ep2,.ep1{
+        position: relative;
+        width: 74%;
+        height: 900px;
+    }
+    .ep2 img{
+        position: relative;
+        width: 200px;
+    }
+    #episode2{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #mictricks{
+        position: relative;
+        top:20px;
+        left: 10px;
+        font-size: 16px;
+    }
+    #stoprolling{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+    .ep2 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .ep1 img{
+        position: relative;
+        width: 200px;
+    }
+    #episode1{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #thebestmicrophone{
+        position: relative;
+        top:20px;
+        left: 10px;
+        font-size: 16px;
+    }
+    #withsomanymicro{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+    .ep1 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .newsletter{
+        position: relative;
+        top:-120px;
+    }
+    #jacobhasabackground{
+        position: relative;
+        width: 300px;
+        height: 66px;
+    }
+    #heretohelpyou{
+        position: relative;
+        width: 300px;
+        height: 66px;
+    }
+    .newsletter{
+        position: relative;
+        margin-top: 250px;
+        width: 70%;
+        height: 387px;
+    }
+    #Emailnewsletter{
+        position: relative;
+        top:-200px;
+    }
+    #name{
+        position: relative;
+        margin-left: -730px;
+        margin-top: 250px;
+        top: -50px;
+        width: 300px;
+        height: 82px;
+    }
+    #email{
+        position: relative;
+        top: 50px;
+        width: 300px;
+        height: 82px;
+        margin-left: 220px;
+    }
+    #Submit{
+        position: relative;
+        margin-left: -650px;
+        top: 150px;
+    }
+    header nav{
+        display: none;
+    }
+    header #menu{
+        display: block;
+    }
+    #subscribefor{
+        position: relative;
+        font-size: 20px;
+    }
+    main{
+        width: 190%;
+        height: 10500px;
+    }
+    #takepodcast{
+        position: relative;
+        font-size: 20px;
+        left: -700px;
+        top:250px;
+    }
+    #listenon{
+        position: relative;
+        left: -730px;
+        top:-900px;
+    }
+    .images{
+        position: relative;
+        left: -730px;
+        top:-900px;
+    }
+    #Afroman2{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: -250px;
+        top:-1000px;
+    }
+    footer{
+        width: 190%;
+    }
+    #subscribefor{
+        position: relative;
+        left: 300px;
+    }
+}
+@media(min-width:510px) and (max-width:600px){
+    #afroman{
+        width: 400px;
+    }
+    #takepodcast{
+        display: inline-block;
+    }
+    footer .firsthref{
+        position: relative;
+        left: 130px;
+    }
+    footer .secondhref{
+        position: relative;
+        left: -550px;
+    }
+    footer .img5{
+        position: relative;
+        left: 20px;
+        margin-top: 190px;
+    }
+    header #mobile{
+        position: relative;
+        left: 210px;
+        top:-170px;
+    }
+    header #menu{
+        position: relative;
+        top:-140px;
+        left: 170px;
+    }
+    footer{
+        position: relative;
+        top:1200px;
+    }
+    .marks{
+        display: inline-block;
+    }
+    .firstmark,.secondmark,.thirdmark{
+        position: relative;
+        left: -50px;
+    }
+    .sixthmark{
+        position: relative;
+        top:900px;
+        left: -610px;
+    }
+    .fivthmark{
+        position: relative;
+        top:400px;
+        left: -300px;
+    }
+    .fourthmark p,.fivthmark p,.sixthmark p{
+        position: relative;
+        left: 30px;
+        font-size: 25px;
+    }
+    .ep3,.ep2,.ep1{
+        display: inline-block;
+    }
+    .ep3{
+        position: relative;
+        width: 74%;
+        height: 900px;
+        top:-550px;
+    }
+    .ep3 img{
+        position: relative;
+        width: 200px;
+    }
+    #latestepisodes{
+        position: relative;
+        top:-500px;
+    }
+    #episode3{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #shouldyouget{
+        position: relative;
+        top:20px;
+        left: 20px;
+        font-size: 16px;
+    }
+    #ishardware{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+   .ep3 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .ep2,.ep1{
+        position: relative;
+        width: 74%;
+        height: 900px;
+    }
+    .ep2 img{
+        position: relative;
+        width: 200px;
+    }
+    #episode2{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #mictricks{
+        position: relative;
+        top:20px;
+        left: 10px;
+        font-size: 16px;
+    }
+    #stoprolling{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+    .ep2 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .ep1 img{
+        position: relative;
+        width: 200px;
+    }
+    #episode1{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #thebestmicrophone{
+        position: relative;
+        top:20px;
+        left: 10px;
+        font-size: 16px;
+    }
+    #withsomanymicro{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+    .ep1 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .newsletter{
+        position: relative;
+        top:-120px;
+    }
+    #jacobhasabackground{
+        position: relative;
+        width: 300px;
+        height: 66px;
+    }
+    #heretohelpyou{
+        position: relative;
+        width: 300px;
+        height: 66px;
+    }
+    .newsletter{
+        position: relative;
+        margin-top: 250px;
+        width: 70%;
+        height: 387px;
+    }
+    #Emailnewsletter{
+        position: relative;
+        top:-200px;
+    }
+    #name{
+        position: relative;
+        margin-left: -730px;
+        margin-top: 250px;
+        top: -50px;
+        width: 300px;
+        height: 82px;
+    }
+    #email{
+        position: relative;
+        top: 50px;
+        width: 300px;
+        height: 82px;
+        margin-left: 220px;
+    }
+    #Submit{
+        position: relative;
+        margin-left: -650px;
+        top: 150px;
+    }
+    header nav{
+        display: none;
+    }
+    header #menu{
+        display: block;
+    }
+    #subscribefor{
+        position: relative;
+        font-size: 20px;
+    }
+    main{
+        width: 100%;
+        height: 10500px;
+    }
+    #takepodcast{
+        position: relative;
+        font-size: 20px;
+        left: -700px;
+        top:250px;
+    }
+    #listenon{
+        position: relative;
+        left: -730px;
+        top:-900px;
+    }
+    .images{
+        position: relative;
+        left: -730px;
+        top:-900px;
+    }
+    #Afroman2{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: -250px;
+        top:-1000px;
+    }
+    #subscribefor{
+        position: relative;
+        left: 300px;
+    }
+}
+@media(min-width:1024px) and (max-width:1050px){
+    #afroman{
+        width: 400px;
+    }
+    #takepodcast{
+        display: inline-block;
+    }
+    footer .firsthref{
+        position: relative;
+        left: 130px;
+    }
+    footer .secondhref{
+        position: relative;
+        left: -550px;
+    }
+    footer .img5{
+        position: relative;
+        left: 20px;
+        margin-top: 190px;
+    }
+    header #mobile{
+        position: relative;
+        left: 210px;
+        top:-170px;
+    }
+    header #menu{
+        position: relative;
+        top:-140px;
+        left: 170px;
+    }
+    footer{
+        position: relative;
+        top:1200px;
+    }
+    .marks{
+        display: inline-block;
+    }
+    .firstmark,.secondmark,.thirdmark{
+        position: relative;
+        left: -50px;
+    }
+    .sixthmark{
+        position: relative;
+        top:900px;
+        left: -610px;
+    }
+    .fivthmark{
+        position: relative;
+        top:400px;
+        left: -300px;
+    }
+    .fourthmark p,.fivthmark p,.sixthmark p{
+        position: relative;
+        left: 30px;
+        font-size: 25px;
+    }
+    .ep3,.ep2,.ep1{
+        display: inline-block;
+    }
+    .ep3{
+        position: relative;
+        width: 74%;
+        height: 900px;
+        top:-550px;
+    }
+    .ep3 img{
+        position: relative;
+        width: 200px;
+    }
+    #latestepisodes{
+        position: relative;
+        top:-500px;
+    }
+    #episode3{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #shouldyouget{
+        position: relative;
+        top:20px;
+        left: 20px;
+        font-size: 16px;
+    }
+    #ishardware{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+   .ep3 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .ep2,.ep1{
+        position: relative;
+        width: 74%;
+        height: 900px;
+    }
+    .ep2 img{
+        position: relative;
+        width: 200px;
+    }
+    #episode2{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #mictricks{
+        position: relative;
+        top:20px;
+        left: 10px;
+        font-size: 16px;
+    }
+    #stoprolling{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+    .ep2 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .ep1 img{
+        position: relative;
+        width: 200px;
+    }
+    #episode1{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #thebestmicrophone{
+        position: relative;
+        top:20px;
+        left: 10px;
+        font-size: 16px;
+    }
+    #withsomanymicro{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+    .ep1 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .newsletter{
+        position: relative;
+        top:-120px;
+    }
+    #jacobhasabackground{
+        position: relative;
+        width: 300px;
+        height: 66px;
+    }
+    #heretohelpyou{
+        position: relative;
+        width: 300px;
+        height: 66px;
+    }
+    .newsletter{
+        position: relative;
+        margin-top: 250px;
+        width: 70%;
+        height: 387px;
+    }
+    #Emailnewsletter{
+        position: relative;
+        top:-200px;
+    }
+    #name{
+        position: relative;
+        margin-left: -730px;
+        margin-top: 250px;
+        top: -50px;
+        width: 300px;
+        height: 82px;
+    }
+    #email{
+        position: relative;
+        top: 50px;
+        width: 300px;
+        height: 82px;
+        margin-left: 220px;
+    }
+    #Submit{
+        position: relative;
+        margin-left: -650px;
+        top: 150px;
+    }
+    header nav{
+        display: none;
+    }
+    header #menu{
+        display: block;
+    }
+    #subscribefor{
+        position: relative;
+        font-size: 20px;
+    }
+    main{
+        width: 100%;
+        height: 10500px;
+    }
+    #takepodcast{
+        position: relative;
+        font-size: 20px;
+        left: -700px;
+        top:250px;
+    }
+    #listenon{
+        position: relative;
+        left: -730px;
+        top:-900px;
+    }
+    .images{
+        position: relative;
+        left: -730px;
+        top:-900px;
+    }
+    #Afroman2{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: -250px;
+        top:-1000px;
+    }
+    #subscribefor{
+        position: relative;
+        left: 300px;
+    }
+}
+@media(min-width:768px) and (max-width:1000px){
+    #afroman{
+        width: 400px;
+    }
+    #takepodcast{
+        display: inline-block;
+    }
+    footer .firsthref{
+        position: relative;
+        left: 130px;
+    }
+    footer .secondhref{
+        position: relative;
+        left: -550px;
+    }
+    footer .img5{
+        position: relative;
+        left: 20px;
+        margin-top: 190px;
+    }
+    header #mobile{
+        position: relative;
+        left: 210px;
+        top:-170px;
+    }
+    header #menu{
+        position: relative;
+        top:-140px;
+        left: 170px;
+    }
+    footer{
+        position: relative;
+        top:1200px;
+    }
+    .marks{
+        display: inline-block;
+    }
+    .firstmark,.secondmark,.thirdmark{
+        position: relative;
+        left: -50px;
+    }
+    .sixthmark{
+        position: relative;
+        top:900px;
+        left: -610px;
+    }
+    .fivthmark{
+        position: relative;
+        top:400px;
+        left: -300px;
+    }
+    .fourthmark p,.fivthmark p,.sixthmark p{
+        position: relative;
+        left: 30px;
+        font-size: 25px;
+    }
+    .ep3,.ep2,.ep1{
+        display: inline-block;
+    }
+    .ep3{
+        position: relative;
+        width: 74%;
+        height: 900px;
+        top:-550px;
+    }
+    .ep3 img{
+        position: relative;
+        width: 200px;
+    }
+    #latestepisodes{
+        position: relative;
+        top:-500px;
+    }
+    #episode3{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #shouldyouget{
+        position: relative;
+        top:20px;
+        left: 20px;
+        font-size: 16px;
+    }
+    #ishardware{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+   .ep3 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .ep2,.ep1{
+        position: relative;
+        width: 74%;
+        height: 900px;
+    }
+    .ep2 img{
+        position: relative;
+        width: 200px;
+    }
+    #episode2{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #mictricks{
+        position: relative;
+        top:20px;
+        left: 10px;
+        font-size: 16px;
+    }
+    #stoprolling{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+    .ep2 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .ep1 img{
+        position: relative;
+        width: 200px;
+    }
+    #episode1{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #thebestmicrophone{
+        position: relative;
+        top:20px;
+        left: 10px;
+        font-size: 16px;
+    }
+    #withsomanymicro{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+    .ep1 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .newsletter{
+        position: relative;
+        top:-120px;
+    }
+    #jacobhasabackground{
+        position: relative;
+        width: 300px;
+        height: 66px;
+    }
+    #heretohelpyou{
+        position: relative;
+        width: 300px;
+        height: 66px;
+    }
+    .newsletter{
+        position: relative;
+        margin-top: 250px;
+        width: 70%;
+        height: 387px;
+    }
+    #Emailnewsletter{
+        position: relative;
+        top:-200px;
+    }
+    #name{
+        position: relative;
+        margin-left: -730px;
+        margin-top: 250px;
+        top: -50px;
+        width: 300px;
+        height: 82px;
+    }
+    #email{
+        position: relative;
+        top: 50px;
+        width: 300px;
+        height: 82px;
+        margin-left: 220px;
+    }
+    #Submit{
+        position: relative;
+        margin-left: -650px;
+        top: 150px;
+    }
+    header nav{
+        display: none;
+    }
+    header #menu{
+        display: block;
+    }
+    #subscribefor{
+        position: relative;
+        font-size: 20px;
+    }
+    main{
+        height: 10500px;
+    }
+    #takepodcast{
+        position: relative;
+        font-size: 20px;
+        left: -700px;
+        top:250px;
+    }
+    #listenon{
+        position: relative;
+        left: -730px;
+        top:-900px;
+    }
+    .images{
+        position: relative;
+        left: -730px;
+        top:-900px;
+    }
+    #Afroman2{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: -250px;
+        top:-1000px;
+    }
+    #subscribefor{
+        position: relative;
+        left: 300px;
+    }
+}
+@media(min-width:600px) and (max-width:700px){
+    #afroman{
+        width: 400px;
+    }
+    #takepodcast{
+        display: inline-block;
+    }
+    footer .firsthref{
+        position: relative;
+        left: 130px;
+    }
+    footer .secondhref{
+        position: relative;
+        left: -550px;
+    }
+    footer .img5{
+        position: relative;
+        left: 20px;
+        margin-top: 190px;
+    }
+    header{
+        width: 190%;
+    }
+    header #mobile{
+        position: relative;
+        left: 210px;
+        top:-170px;
+    }
+    header #menu{
+        position: relative;
+        top:-140px;
+        left: 170px;
+    }
+    footer{
+        position: relative;
+        top:1200px;
+    }
+    .marks{
+        display: inline-block;
+    }
+    .firstmark,.secondmark,.thirdmark{
+        position: relative;
+        left: -50px;
+    }
+    .sixthmark{
+        position: relative;
+        top:900px;
+        left: -610px;
+    }
+    .fivthmark{
+        position: relative;
+        top:400px;
+        left: -300px;
+    }
+    .fourthmark p,.fivthmark p,.sixthmark p{
+        position: relative;
+        left: 30px;
+        font-size: 25px;
+    }
+    .ep3,.ep2,.ep1{
+        display: inline-block;
+    }
+    .ep3{
+        position: relative;
+        width: 74%;
+        height: 900px;
+        top:-550px;
+    }
+    .ep3 img{
+        position: relative;
+        width: 200px;
+    }
+    #latestepisodes{
+        position: relative;
+        top:-500px;
+    }
+    #episode3{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #shouldyouget{
+        position: relative;
+        top:20px;
+        left: 20px;
+        font-size: 16px;
+    }
+    #ishardware{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+   .ep3 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .ep2,.ep1{
+        position: relative;
+        width: 74%;
+        height: 900px;
+    }
+    .ep2 img{
+        position: relative;
+        width: 200px;
+    }
+    #episode2{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #mictricks{
+        position: relative;
+        top:20px;
+        left: 10px;
+        font-size: 16px;
+    }
+    #stoprolling{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+    .ep2 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .ep1 img{
+        position: relative;
+        width: 200px;
+    }
+    #episode1{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #thebestmicrophone{
+        position: relative;
+        top:20px;
+        left: 10px;
+        font-size: 16px;
+    }
+    #withsomanymicro{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+    .ep1 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .newsletter{
+        position: relative;
+        top:-120px;
+    }
+    #jacobhasabackground{
+        position: relative;
+        width: 300px;
+        height: 66px;
+    }
+    #heretohelpyou{
+        position: relative;
+        width: 300px;
+        height: 66px;
+    }
+    .newsletter{
+        position: relative;
+        margin-top: 250px;
+        width: 70%;
+        height: 387px;
+    }
+    #Emailnewsletter{
+        position: relative;
+        top:-200px;
+    }
+    #name{
+        position: relative;
+        margin-left: -730px;
+        margin-top: 250px;
+        top: -50px;
+        width: 300px;
+        height: 82px;
+    }
+    #email{
+        position: relative;
+        top: 50px;
+        width: 300px;
+        height: 82px;
+        margin-left: 220px;
+    }
+    #Submit{
+        position: relative;
+        margin-left: -650px;
+        top: 150px;
+    }
+    header nav{
+        display: none;
+    }
+    header #menu{
+        display: block;
+    }
+    #subscribefor{
+        position: relative;
+        font-size: 20px;
+    }
+    main{
+        width: 190%;
+        height: 10500px;
+    }
+    #takepodcast{
+        position: relative;
+        font-size: 20px;
+        left: -700px;
+        top:250px;
+    }
+    #listenon{
+        position: relative;
+        left: -730px;
+        top:-900px;
+    }
+    .images{
+        position: relative;
+        left: -730px;
+        top:-900px;
+    }
+    #Afroman2{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: -250px;
+        top:-1000px;
+    }
+    footer{
+        width: 190%;
+    }
+    #subscribefor{
+        position: relative;
+        left: 300px;
+    }
+}
+@media(min-width:200px) and (max-width:300px){
+    #afroman{
+        width: 400px;
+    }
+    #takepodcast{
+        display: inline-block;
+    }
+    footer .firsthref{
+        position: relative;
+        left: 130px;
+    }
+    footer .secondhref{
+        position: relative;
+        left: -550px;
+    }
+    footer .img5{
+        position: relative;
+        left: 20px;
+        margin-top: 190px;
+    }
+    header{
+        width: 190%;
+    }
+    header #mobile{
+        position: relative;
+        left: 210px;
+        top:-170px;
+    }
+    header #menu{
+        position: relative;
+        top:-140px;
+        left: 170px;
+    }
+    footer{
+        position: relative;
+        top:1200px;
+    }
+    .marks{
+        display: inline-block;
+    }
+    .firstmark,.secondmark,.thirdmark{
+        position: relative;
+        left: -50px;
+    }
+    .sixthmark{
+        position: relative;
+        top:900px;
+        left: -610px;
+    }
+    .fivthmark{
+        position: relative;
+        top:400px;
+        left: -300px;
+    }
+    .fourthmark p,.fivthmark p,.sixthmark p{
+        position: relative;
+        left: 30px;
+        font-size: 25px;
+    }
+    .ep3,.ep2,.ep1{
+        display: inline-block;
+    }
+    .ep3{
+        position: relative;
+        width: 74%;
+        height: 900px;
+        top:-550px;
+    }
+    .ep3 img{
+        position: relative;
+        width: 200px;
+    }
+    #latestepisodes{
+        position: relative;
+        top:-500px;
+    }
+    #episode3{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #shouldyouget{
+        position: relative;
+        top:20px;
+        left: 20px;
+        font-size: 16px;
+    }
+    #ishardware{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+   .ep3 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .ep2,.ep1{
+        position: relative;
+        width: 74%;
+        height: 900px;
+    }
+    .ep2 img{
+        position: relative;
+        width: 200px;
+    }
+    #episode2{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #mictricks{
+        position: relative;
+        top:20px;
+        left: 10px;
+        font-size: 16px;
+    }
+    #stoprolling{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+    .ep2 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .ep1 img{
+        position: relative;
+        width: 200px;
+    }
+    #episode1{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #thebestmicrophone{
+        position: relative;
+        top:20px;
+        left: 10px;
+        font-size: 16px;
+    }
+    #withsomanymicro{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+    .ep1 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .newsletter{
+        position: relative;
+        top:-120px;
+    }
+    #jacobhasabackground{
+        position: relative;
+        width: 300px;
+        height: 66px;
+    }
+    #heretohelpyou{
+        position: relative;
+        width: 300px;
+        height: 66px;
+    }
+    .newsletter{
+        position: relative;
+        margin-top: 250px;
+        width: 70%;
+        height: 387px;
+    }
+    #Emailnewsletter{
+        position: relative;
+        top:-200px;
+    }
+    #name{
+        position: relative;
+        margin-left: -730px;
+        margin-top: 250px;
+        top: -50px;
+        width: 300px;
+        height: 82px;
+    }
+    #email{
+        position: relative;
+        top: 50px;
+        width: 300px;
+        height: 82px;
+        margin-left: 220px;
+    }
+    #Submit{
+        position: relative;
+        margin-left: -650px;
+        top: 150px;
+    }
+    header nav{
+        display: none;
+    }
+    header #menu{
+        display: block;
+    }
+    #subscribefor{
+        position: relative;
+        font-size: 20px;
+    }
+    main{
+        width: 190%;
+        height: 10500px;
+    }
+    #takepodcast{
+        position: relative;
+        font-size: 20px;
+        left: -700px;
+        top:250px;
+    }
+    #listenon{
+        position: relative;
+        left: -730px;
+        top:-900px;
+    }
+    .images{
+        position: relative;
+        left: -730px;
+        top:-900px;
+    }
+    #Afroman2{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: -250px;
+        top:-1000px;
+    }
+    footer{
+        width: 190%;
+    }
+    #subscribefor{
+        position: relative;
+        left: 300px;
+    }
+}
+@media(min-width:1280px) and (max-width:1500px){
+    #afroman{
+        width: 400px;
+    }
+    #takepodcast{
+        display: inline-block;
+    }
+    footer .firsthref{
+        position: relative;
+        left: 130px;
+    }
+    footer .secondhref{
+        position: relative;
+        left: -550px;
+    }
+    footer .img5{
+        position: relative;
+        left: 20px;
+        margin-top: 190px;
+    }
+    header{
+        width: 100%;
+    }
+    header #mobile{
+        position: relative;
+        left: 210px;
+        top:-170px;
+    }
+    header #menu{
+        position: relative;
+        top:-140px;
+        left: 170px;
+    }
+    footer{
+        position: relative;
+        top:1200px;
+    }
+    .marks{
+        display: inline-block;
+    }
+    .firstmark,.secondmark,.thirdmark{
+        position: relative;
+        left: -50px;
+    }
+    .sixthmark{
+        position: relative;
+        top:900px;
+        left: -610px;
+    }
+    .fivthmark{
+        position: relative;
+        top:400px;
+        left: -300px;
+    }
+    .fourthmark p,.fivthmark p,.sixthmark p{
+        position: relative;
+        left: 30px;
+        font-size: 25px;
+    }
+    .ep3,.ep2,.ep1{
+        display: inline-block;
+    }
+    .ep3{
+        position: relative;
+        width: 74%;
+        height: 900px;
+        top:-550px;
+    }
+    .ep3 img{
+        position: relative;
+        width: 200px;
+    }
+    #latestepisodes{
+        position: relative;
+        top:-500px;
+    }
+    #episode3{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #shouldyouget{
+        position: relative;
+        top:20px;
+        left: 20px;
+        font-size: 16px;
+    }
+    #ishardware{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+   .ep3 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .ep2,.ep1{
+        position: relative;
+        width: 74%;
+        height: 900px;
+    }
+    .ep2 img{
+        position: relative;
+        width: 200px;
+    }
+    #episode2{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #mictricks{
+        position: relative;
+        top:20px;
+        left: 10px;
+        font-size: 16px;
+    }
+    #stoprolling{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+    .ep2 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .ep1 img{
+        position: relative;
+        width: 200px;
+    }
+    #episode1{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #thebestmicrophone{
+        position: relative;
+        top:20px;
+        left: 10px;
+        font-size: 16px;
+    }
+    #withsomanymicro{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+    .ep1 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .newsletter{
+        position: relative;
+        top:-120px;
+    }
+    #jacobhasabackground{
+        position: relative;
+        width: 300px;
+        height: 66px;
+    }
+    #heretohelpyou{
+        position: relative;
+        width: 300px;
+        height: 66px;
+    }
+    .newsletter{
+        position: relative;
+        margin-top: 250px;
+        width: 70%;
+        height: 387px;
+    }
+    #Emailnewsletter{
+        position: relative;
+        top:-200px;
+    }
+    #name{
+        position: relative;
+        margin-left: -730px;
+        margin-top: 250px;
+        top: -50px;
+        width: 300px;
+        height: 82px;
+    }
+    #email{
+        position: relative;
+        top: 50px;
+        width: 300px;
+        height: 82px;
+        margin-left: 220px;
+    }
+    #Submit{
+        position: relative;
+        margin-left: -650px;
+        top: 150px;
+    }
+    header nav{
+        display: none;
+    }
+    header #menu{
+        display: block;
+    }
+    #subscribefor{
+        position: relative;
+        font-size: 20px;
+    }
+    main{
+        height: 10500px;
+    }
+    #takepodcast{
+        position: relative;
+        font-size: 20px;
+        left: -700px;
+        top:250px;
+    }
+    #listenon{
+        position: relative;
+        left: -730px;
+        top:-900px;
+    }
+    .images{
+        position: relative;
+        left: -730px;
+        top:-900px;
+    }
+    #Afroman2{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: -250px;
+        top:-1000px;
+    }
+    #subscribefor{
+        position: relative;
+        left: 300px;
+    }
+}
+@media(min-width:700px) and (max-width:767px){
+    #afroman{
+        width: 400px;
+    }
+    #takepodcast{
+        display: inline-block;
+    }
+    footer .firsthref{
+        position: relative;
+        left: 130px;
+    }
+    footer .secondhref{
+        position: relative;
+        left: -550px;
+    }
+    footer .img5{
+        position: relative;
+        left: 20px;
+        margin-top: 190px;
+    }
+    header{
+        width: 190%;
+    }
+    header #mobile{
+        position: relative;
+        left: 210px;
+        top:-170px;
+    }
+    header #menu{
+        position: relative;
+        top:-140px;
+        left: 170px;
+    }
+    footer{
+        position: relative;
+        top:1200px;
+    }
+    .marks{
+        display: inline-block;
+    }
+    .firstmark,.secondmark,.thirdmark{
+        position: relative;
+        left: -50px;
+    }
+    .sixthmark{
+        position: relative;
+        top:900px;
+        left: -610px;
+    }
+    .fivthmark{
+        position: relative;
+        top:400px;
+        left: -300px;
+    }
+    .fourthmark p,.fivthmark p,.sixthmark p{
+        position: relative;
+        left: 30px;
+        font-size: 25px;
+    }
+    .ep3,.ep2,.ep1{
+        display: inline-block;
+    }
+    .ep3{
+        position: relative;
+        width: 74%;
+        height: 900px;
+        top:-550px;
+    }
+    .ep3 img{
+        position: relative;
+        width: 200px;
+    }
+    #latestepisodes{
+        position: relative;
+        top:-500px;
+    }
+    #episode3{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #shouldyouget{
+        position: relative;
+        top:20px;
+        left: 20px;
+        font-size: 16px;
+    }
+    #ishardware{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+   .ep3 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .ep2,.ep1{
+        position: relative;
+        width: 74%;
+        height: 900px;
+    }
+    .ep2 img{
+        position: relative;
+        width: 200px;
+    }
+    #episode2{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #mictricks{
+        position: relative;
+        top:20px;
+        left: 10px;
+        font-size: 16px;
+    }
+    #stoprolling{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+    .ep2 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .ep1 img{
+        position: relative;
+        width: 200px;
+    }
+    #episode1{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #thebestmicrophone{
+        position: relative;
+        top:20px;
+        left: 10px;
+        font-size: 16px;
+    }
+    #withsomanymicro{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+    .ep1 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .newsletter{
+        position: relative;
+        top:-120px;
+    }
+    #jacobhasabackground{
+        position: relative;
+        width: 300px;
+        height: 66px;
+    }
+    #heretohelpyou{
+        position: relative;
+        width: 300px;
+        height: 66px;
+    }
+    .newsletter{
+        position: relative;
+        margin-top: 250px;
+        width: 70%;
+        height: 387px;
+    }
+    #Emailnewsletter{
+        position: relative;
+        top:-200px;
+    }
+    #name{
+        position: relative;
+        margin-left: -730px;
+        margin-top: 250px;
+        top: -50px;
+        width: 300px;
+        height: 82px;
+    }
+    #email{
+        position: relative;
+        top: 50px;
+        width: 300px;
+        height: 82px;
+        margin-left: 220px;
+    }
+    #Submit{
+        position: relative;
+        margin-left: -650px;
+        top: 150px;
+    }
+    header nav{
+        display: none;
+    }
+    header #menu{
+        display: block;
+    }
+    #subscribefor{
+        position: relative;
+        font-size: 20px;
+    }
+    main{
+        width: 190%;
+        height: 10500px;
+    }
+    #takepodcast{
+        position: relative;
+        font-size: 20px;
+        left: -700px;
+        top:250px;
+    }
+    #listenon{
+        position: relative;
+        left: -730px;
+        top:-900px;
+    }
+    .images{
+        position: relative;
+        left: -730px;
+        top:-900px;
+    }
+    #Afroman2{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: -250px;
+        top:-1000px;
+    }
+    footer{
+        width: 190%;
+    }
+    #subscribefor{
+        position: relative;
+        left: 300px;
+    }
+}
+@media(min-width:1003px) and (max-width:1020px){
+    #afroman{
+        width: 400px;
+    }
+    #takepodcast{
+        display: inline-block;
+    }
+    footer .firsthref{
+        position: relative;
+        left: 130px;
+    }
+    footer .secondhref{
+        position: relative;
+        left: -550px;
+    }
+    footer .img5{
+        position: relative;
+        left: 20px;
+        margin-top: 190px;
+    }
+    header{
+        width: 190%;
+    }
+    header #mobile{
+        position: relative;
+        left: 210px;
+        top:-170px;
+    }
+    header #menu{
+        position: relative;
+        top:-140px;
+        left: 170px;
+    }
+    footer{
+        position: relative;
+        top:1200px;
+    }
+    .marks{
+        display: inline-block;
+    }
+    .firstmark,.secondmark,.thirdmark{
+        position: relative;
+        left: -50px;
+    }
+    .sixthmark{
+        position: relative;
+        top:900px;
+        left: -610px;
+    }
+    .fivthmark{
+        position: relative;
+        top:400px;
+        left: -300px;
+    }
+    .fourthmark p,.fivthmark p,.sixthmark p{
+        position: relative;
+        left: 30px;
+        font-size: 25px;
+    }
+    .ep3,.ep2,.ep1{
+        display: inline-block;
+    }
+    .ep3{
+        position: relative;
+        width: 74%;
+        height: 900px;
+        top:-550px;
+    }
+    .ep3 img{
+        position: relative;
+        width: 200px;
+    }
+    #latestepisodes{
+        position: relative;
+        top:-500px;
+    }
+    #episode3{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #shouldyouget{
+        position: relative;
+        top:20px;
+        left: 20px;
+        font-size: 16px;
+    }
+    #ishardware{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+   .ep3 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .ep2,.ep1{
+        position: relative;
+        width: 74%;
+        height: 900px;
+    }
+    .ep2 img{
+        position: relative;
+        width: 200px;
+    }
+    #episode2{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #mictricks{
+        position: relative;
+        top:20px;
+        left: 10px;
+        font-size: 16px;
+    }
+    #stoprolling{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+    .ep2 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .ep1 img{
+        position: relative;
+        width: 200px;
+    }
+    #episode1{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    #thebestmicrophone{
+        position: relative;
+        top:20px;
+        left: 10px;
+        font-size: 16px;
+    }
+    #withsomanymicro{
+        position: relative;
+        top:-30px;
+        left: 12px;
+        font-size: 16px;
+        width: 350px;
+        height: 30px;
+    }
+    .ep1 .viewepisode{
+        position: relative;
+        top:130px;
+        left: 50px;
+    }
+    .newsletter{
+        position: relative;
+        top:-120px;
+    }
+    #jacobhasabackground{
+        position: relative;
+        width: 300px;
+        height: 66px;
+    }
+    #heretohelpyou{
+        position: relative;
+        width: 300px;
+        height: 66px;
+    }
+    .newsletter{
+        position: relative;
+        margin-top: 250px;
+        width: 70%;
+        height: 387px;
+    }
+    #Emailnewsletter{
+        position: relative;
+        top:-200px;
+    }
+    #name{
+        position: relative;
+        margin-left: -730px;
+        margin-top: 250px;
+        top: -50px;
+        width: 300px;
+        height: 82px;
+    }
+    #email{
+        position: relative;
+        top: 50px;
+        width: 300px;
+        height: 82px;
+        margin-left: 220px;
+    }
+    #Submit{
+        position: relative;
+        margin-left: -650px;
+        top: 150px;
+    }
+    header nav{
+        display: none;
+    }
+    header #menu{
+        display: block;
+    }
+    #subscribefor{
+        position: relative;
+        font-size: 20px;
+    }
+    main{
+        width: 190%;
+        height: 10500px;
+    }
+    #takepodcast{
+        position: relative;
+        font-size: 20px;
+        left: -700px;
+        top:250px;
+    }
+    #listenon{
+        position: relative;
+        left: -730px;
+        top:-900px;
+    }
+    .images{
+        position: relative;
+        left: -730px;
+        top:-900px;
+    }
+    #Afroman2{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: -250px;
+        top:-1000px;
+    }
+    footer{
+        width: 190%;
+    }
+    #subscribefor{
+        position: relative;
+        left: 300px;
+    }
+}
